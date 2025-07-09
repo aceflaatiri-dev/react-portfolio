@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Acef Laatiri Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive developer portfolio built with **React** and **React-Bootstrap** to showcase projects and contact information.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Responsive Navbar with smooth section navigation
+- About Me section with a brief introduction
+- Projects section displaying 3 project cards with GitHub links
+- Contact section with email and GitHub profile links
+- Simple footer with dynamic current year
+- Built with React functional components and React-Bootstrap UI components
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js (v14 or higher recommended)
+- npm (comes with Node.js)
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/aceflaatiri-dev/react-portfolio.git
+   cd react-portfolio
+Install dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+bash
+Copy
+Edit
+npm install
+Start the development server:
 
-### `npm run eject`
+bash
+Copy
+Edit
+npm start
+Open your browser at http://localhost:3000 to view the portfolio.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Technologies Used
+React
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+React-Bootstrap
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Bootstrap 5
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Folder Structure
+php
+Copy
+Edit
+react-portfolio/
+├── node_modules/
+├── public/
+├── src/
+│   ├── App.js         # Main React component with portfolio content
+│   ├── index.js       # React entry point
+│   └── ...
+├── package.json
+└── README.md
+How to Customize
+Update the About Me section in App.js with your name and description
 
-## Learn More
+Add or edit projects inside the Projects section
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Update contact information in the Contact section
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Customize styles using Bootstrap classes or add your own CSS
 
-### Code Splitting
+License
+This project is open source and available under the MIT License.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contact
+Made by Acef Laatiri — feel free to reach out!
 
-### Analyzing the Bundle Size
+Email: acef@example.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+GitHub: aceflaatiri-dev
